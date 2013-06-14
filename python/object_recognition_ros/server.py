@@ -81,7 +81,7 @@ class RecognitionServer:
 
     def callback_recognized_object_array(self, data):
         self.recognition_result = data
-    
+
     def execute(self, goal):
         if self.cropper is not None:
             self.cropper.params.crop_enabled = goal.use_roi
