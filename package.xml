@@ -7,7 +7,7 @@
   <maintainer email="vincent.rabaud@gmail.com">Vincent Rabaud</maintainer>
   <license>BSD</license>
 
-  <url>http://ecto.willowgarage.com/recognition</url>
+  <url>wg-perception.github.io/object_recognition_ros</url>
 
   <build_depend>actionlib</build_depend>
   <build_depend>boost</build_depend>
@@ -32,6 +32,7 @@
   <run_depend>object_recognition_msgs</run_depend>
   <run_depend>pcl</run_depend>
   <run_depend>pluginlib</run_depend>
+  <run_depend>rostopic</run_depend>
   <run_depend>rviz</run_depend>
 
   <test_depend>visualization_msgs</test_depend>
